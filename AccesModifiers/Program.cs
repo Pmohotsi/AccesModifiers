@@ -11,7 +11,7 @@ namespace AccesModifiers
         static void Main(string[] args)
         {
             var person = new Person();
-            person.setBirthdate(new DateTime(1995, 02, 25));
+            person.setBirthdate("Poloko","Mohotsi",new DateTime(1995, 02, 25));
             Console.WriteLine(person.getDate());
         }
     }
